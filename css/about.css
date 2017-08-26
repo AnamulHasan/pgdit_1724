@@ -1,0 +1,48 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+#wrapper{ background-color:#FAFDFA; min-height:740px; width:1100px; margin:0 auto;}
+
+.left, .right, .bright{ background-color:#3399FF;}
+.left{ padding-left:60px;}
+.right{ padding-right:823px;}
+.midle{ padding:0px 20px;}
+#hrtwo{ margin-bottom:6px;}
+.bright{ padding-right:270px;}
+
+#body{ width:1100px; margin:0px auto; background-color:#FFF; }
+
+.bodyleft{ float:left; background-color:#f2f2f2; width:220px; min-height:865px; padding:15px; margin:0px 0px 30px;}
+.blcontent{ text-align:right; padding:0px 0px; font-family:Tahoma, Geneva, sans-serif; line-height:26px; color:#2E2E2E;}
+.bold{ font-weight:bold; padding:10px 0px 7px;}
+
+
+.bodyright{ float:left; width:780px; box-sizing:border-box; margin-left:50px; color:#2E2E2E;}
+.brtop{}
+.expleft{ float:left; width:160px; color:#3399FF; font-weight:bold; margin:7px 0px;}
+.expright{ float:left; width:550px; margin-left:30px;}
+.exptop{ font-weight:bold; margin:7px 0px;}
+.expcont{ text-indent:20px; margin:12px 0px; text-align:justify;}
+.midtable{}
+
+
+.brbottom{}
+.brbleft{ float:left; width:340px;}
+.brbhead{ font-weight:bold; font-size:19px; letter-spacing:1px;}
+.brbright{ float:left;}
+table{ margin:10px 0px; border-collapse:collapse;}
+table tr{}
+td{ padding:5px;}
+.name{ color:#3399FF; font-weight:bold;}
+#last{ font-family:Tahoma, Geneva, sans-serif; line-height:26px; color:#2E2E2E;}
+

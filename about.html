@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <button><a href="home.html"><img src="img/logo.png" alt="logo"></a></button>
+        <nav>
+            <ul id="nav">
+                <li><a href="home.html">Home</a></li>
+                <li class="active"><a href="about.html">About Me</a>
+                    <ul>
+                        <li><a href="personal_info.html">Personal Info</a></li>
+                        <li><a href="educational_info.html">Educational Info</a></li>
+                        <li><a href="work_info.html">Work Info</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.php">Contact Me</a></li>
+                <li><a href="login.php">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--<div class="banner">
+
+    </div>-->
+
+    <div class="main-and-sidebar-wrapper">
+        <!--<section class="main">
+            <h2>Hi there! This is Anamul Hasan.</h2>
+
+            <p>A Web Developer specializing in front end development.
+                Experienced with all stages of the development cycle for
+                dynamic web projects. Well-versed in numerous programming languages
+                including HTML, CSS (BootStrap,Foundation), JavaScript(jQuery), MySQL, PostgreSQL and PHP (Laravel).
+                Feel free to <a href="contact.php">Contact</a> me.</p>
+
+        </section>
+
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <hr><br>
+            <p>Some sidebar content goes here</p>
+        </aside>-->
+            <div id="wrapper">
+                <!------------hr one---------------->
+                <div id="body" class="clearfix">
+                    <div class="bodyleft">
+                        <img class="bold" src="img/leon.jpg" width="180"/>
+                        <div class="blcontent">
+                            <h2>//Profile</h2>
+                            <div class="bold">Name</div>
+                            Anamul Hasan
+
+                            <div class="bold">Date of Birth</div>
+                            Dec 30th 1988
+
+                            <div class="bold">Address</div>
+                            Flat # A5, 93,<br> Basiruddin Road<br> North Dhanmondi<br> Kalabagan, Dhaka-1205
+
+                            <div class="bold">Phone</div>
+                            +88019-671-413-49
+
+                            <div class="bold">E-mail</div>
+                            <a href="mailto:h.taimur@gmail.com">h.taimur@gmail.com</a>
+
+                            <div class="bold">Website</div>
+                            <a href="http://www.ithornet.com/" target="_blank" title="ithornet">www.ithornet.com</a><br>
+                            <a href="http://fakealcohol.com/" target="_blank" title="fakealcohol">www.fakealcohol.com</a><br>
+                            <br>
+                            <h2>//Social</h2><br>
+                            <a href="https://www.facebook.com/anamul.taimur" target="_blank" title="Facebook">Facebook/Anamul <img src="img/fbFavicon.png" width="15"/> </a>
+                            <br><a href="https://www.linkedin.com/in/anamulupwork" target="_blank" title="Linkedin">Linkedin/Anamul <img src="img/LinkedIn.png" width="15"/> </a>
+                        </div>
+                    </div>
+                    <!-------------end bodyleft------------>
+                    <div class="bodyright">
+                        <div class="brtop clearfix"><br>
+                            <h2>//Experience</h2><br>
+                            <div class="expleft">
+                                Jan 2017 - Continue
+                            </div>
+                            <div class="expright">
+                                <div class="exptop">
+                                    <em>Assistant Programmer</em>  <span style="float: right;">Q-Soft Precise Assistance</span>
+                                </div>
+                                <div class="expcont">
+                                    Working in a web application named 'Process Review Register' to provide all kind of reports to Client. Used technologies - HTML5, CSS3, BootStrap, jQuery, PHP7.1 and PostgreSQL.
+                                </div>
+                            </div>
+                            <div class="expleft">
+                                Jan 2016 - Oct 2016
+                            </div>
+                            <div class="expright">
+                                <div class="exptop">
+                                    <em>Junior Programmer</em> <span style="float: right;">Mighty Egg Technologies</span>
+                                </div>
+                                <div class="expcont">
+                                    Worked as Trainee Programmer in a Web Application regarding food service. Used technologies - HTML5, CSS3, Bootstrap, jQuery, PHP5.5 and MySql.
+                                </div>
+                            </div>
+                            <div class="expleft">
+                                Feb 2014 - Jul 2014
+                            </div>
+                            <div class="expright">
+                                <div class="exptop">
+                                    <em>Executive Prossessor</em> <span style="float: right;">Kazi IT Ltd</span>
+                                </div>
+                                <div class="expcont">
+                                    As Executive Processor in KITC had processed property preservation's work order in Property Preservation Wizard (PPW), Fieldcom and Northsight - clients were mostly Corelogic and M&M.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brmidle clearfix"><br>
+                            <h2>//Education</h2><br>
+                            <table width="700" class="midtable" border="0">
+                                <tr>
+                                    <td class="name">2015</td>
+                                    <td>Diploma in IT</td>
+                                    <td>Successfully completed</td>
+                                    <td>IDB-BISEW</td>
+                                </tr>
+                                <tr>
+                                    <td class="name">2006-2013</td>
+                                    <td>B.B.S</td>
+                                    <td>Second Class</td>
+                                    <td>Dhaka College, Dhaka</td>
+                                </tr>
+                                <tr>
+                                    <td class="name">2004-2006</td>
+                                    <td>H.S.C - Science</td>
+                                    <td>GPA - 4.10</td>
+                                    <td>Ideal College, Dhanmondi</td>
+                                </tr>
+                                <tr>
+                                    <td class="name">2002-2004</td>
+                                    <td>S.S.C - Science</td>
+                                    <td>GPA - 4.31</td>
+                                    <td>Mohangong Pilot Govt. High School <br>Netrokona</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <br>
+                        <div class="brbottom clearfix">
+                            <h2>//Skills</h2><br>
+                            <div class="brbleft">
+                                <div class="brbhead">Professional Skills</div>
+
+                                <table width="240" border="0">
+                                    <tr>
+                                        <td>HTML5</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CSS3</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JavaScript</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHP</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MySQL</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Photoshop cs6</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div class="brbright">
+                                <div class="brbhead">Personal Skills</div>
+
+                                <table width="260" border="0">
+                                    <tr>
+                                        <td>Organization</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Communication</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Commitment</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Time Management</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Team Player</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Problem Solving</td>
+                                        <td class="name">&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------end bodyright------------>
+                </div>
+                <!------------end body------------>
+            </div>
+            <!---------------end wrapper---------------->
+    </div>
+
+    <footer>
+        <h3>Footer</h3>
+        <p>&copy; super duper <a href="home.html">Anamul Hasan</a></p>
+    </footer>
+
+</div>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
