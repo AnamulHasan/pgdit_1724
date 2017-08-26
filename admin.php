@@ -4,9 +4,6 @@ require_once("db_connect.php");
 
 $contact_me=$db->query("select * from contact_me;");
 
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -83,9 +80,5 @@ $contact_me=$db->query("select * from contact_me;");
     </footer>
 
 </div>
-
-<script type="text/javascript">
-
-</script>
 </body>
 </html>

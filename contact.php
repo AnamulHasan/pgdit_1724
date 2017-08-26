@@ -31,8 +31,7 @@ if(isset($_POST["contact"])){
     } else {
         $input_message = "Error: " . $sql . "<br>" . $db->error;
     }
-
-
+    
     $db->close();
 }
 
@@ -95,35 +94,6 @@ if(isset($_POST["contact"])){
         <p>&copy; super duper <a href="home.html">Anamul Hasan</a></p>
     </footer>
 </div>
-
-<script type="text/javascript">
-    function formValid(){
-        let fullName = document.contact.fullName;
-        if(fullName.value==""){
-            alert("Your Name is required!");
-            fullName.focus();
-            return false;
-        }
-        let eMail = document.contact.eMail;
-        if(eMail.value==""){
-            alert("E-Mail address is required!");
-            eMail.focus();
-            return false;
-        }
-        let subject = document.contact.subject;
-        if(subject.value==""){
-            alert("Subject field is required!");
-            subject.focus();
-            return false;
-        }
-        let message = document.contact.message;
-        if(message.value==""){
-            alert("Message field is required!");
-            message.focus();
-            return false;
-        }
-        return true;
-    }
-</script>
+<script src="js/main.js"></script>
 </body>
 </html>

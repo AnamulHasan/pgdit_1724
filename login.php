@@ -68,7 +68,7 @@ if(isset($_POST["submit"])){
             ?>
             <div class="form-style-6">
                 <h1>Login</h1>
-                <form name="login" action="" method="post" onsubmit="return formValid();">
+                <form name="login" action="" method="post" onsubmit="return formValid2();">
                     <input type="text" name="userName" placeholder="UserName" />
                     <input type="password" name="passWord" placeholder="Password" />
                     <input type="submit" name="submit" value="Go" />
@@ -86,22 +86,6 @@ if(isset($_POST["submit"])){
         <p>&copy; super duper <a href="home.html">Anamul Hasan</a></p>
     </footer>
 </div>
-
-<script type="text/javascript">
-    function formValid(){
-        let userName = document.login.userName;
-        if(userName.value==""){
-            alert("Enter username");
-            userName.focus();
-            return false;
-        }
-        let passWord = document.login.passWord;
-        if(passWord.value==""){
-            alert("Enter password");
-            passWord.focus();
-            return false;
-        }
-    }
-</script>
+<script src="js/main.js"></script>
 </body>
 </html>
